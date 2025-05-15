@@ -16,9 +16,11 @@
 
 
 body {
-/*     --font: '';  change to '' for default discord font */ 
-/*     --code-font: '';  change to '' for default discord font */ 
-/*     font-weight: 400  normal text font weight. DOES NOT AFFECT BOLD TEXT */; 
+    --font: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);  
+    --code-font: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+               'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+               var(--font-sp-mono); 
+    font-weight: 400; 
 
     /* sizes */
     --gap: 12px; /* spacing between panels */
