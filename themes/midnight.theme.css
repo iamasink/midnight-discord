@@ -14,6 +14,10 @@
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 @import url('https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.theme.css');
 
+/* dim background image */
+div.wallpaperContainer__5fa7b {
+  filter: brightness(0.3) !important;
+}
 
 body {
     --font: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);  
