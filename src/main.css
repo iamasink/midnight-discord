@@ -133,6 +133,9 @@ body {
         border: none !important;
         background: none;
     }
+    .chatContent_f75fb0 {
+        overflow: hidden;
+    }
     .container__133bf /* friends page group outer */,
     .page_c48ade {
         padding-bottom: var(--gap);
@@ -233,6 +236,8 @@ body {
         overflow: hidden;
         height: auto;
         min-width: 340px;
+        background-position: center calc(-1 * var(--border-thickness));
+        background-size: 100% calc(100% + 2 * var(--border-thickness));
     }
 
     .searchResultsWrap_a9e706 /* search results */ {
@@ -418,6 +423,8 @@ body {
 
     .outer_c0bea0 /* profile outer */ {
         border: 1px solid var(--border-subtle);
+        background-position: center calc(-1 * var(--border-thickness));
+        background-size: 100% calc(100% + 2 * var(--border-thickness));
     }
     .root__24502 {
         background: none;
